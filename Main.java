@@ -2,6 +2,7 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
+        // real project would ask for user input
         Student student = new Student("S1", "Alex", "alex@example.com", "password123", "Computer Science");
 
         StudyGroup group = new StudyGroup(
